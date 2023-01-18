@@ -473,8 +473,7 @@ footer {
   font-weight: 500;
   margin: 0 0 15px 0;
 }
-.education-block p,
-.education-block ul {
+.education-block p,.education-block ul {
   margin: 0;
   color: #74808a;
   font-size: 0.9em;
@@ -513,7 +512,7 @@ footer {
 }
 
 .project:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);  
 }
 
 .project-info {
