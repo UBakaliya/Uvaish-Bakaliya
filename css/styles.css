@@ -58,7 +58,7 @@ header {
 }
 header ul {
     display: inline-block;
-    background: rgb(255, 255, 255);
+    background: white;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -70,13 +70,13 @@ header li {
 }
 header a {
     display: block;
-    color: #000000;
+    color: black;
     padding: 10px;
 }
 header a:hover {
-    color: #364b5a;
+    color: white;
     text-decoration: none;
-    background: rgb(193, 193, 193);
+    background: black;
     border-radius: 4px;
 }
 header a:focus {
@@ -172,15 +172,15 @@ footer {
 }
 .btn-rounded-white {
     display: inline-block;
-    color: #ffffff;
+    color: black;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid black;
     border-radius: 30px;
     transition: 0.5s ease all;
 }
 .btn-rounded-white:hover {
-    color: #0b0c0d;
-    background: white;
+    color: white;
+    background: black;
     text-decoration: none;
 }
 .shadow {
@@ -212,12 +212,7 @@ footer {
 }
 #lead {
     position: relative;
-    background-color: rgba(
-        0,
-        0,
-        0,
-        0.9
-    ); /* Adjust the opacity value as needed (0.5 = 50% opacity) */
+    background-color: #f2f2f5;
 
     height: 100vh;
     min-height: 500px;
@@ -225,11 +220,6 @@ footer {
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    background-image: url("/images/Profile_Image.jpeg");
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: right;
-    opacity: 0.8;
 }
 
 #lead-content {
@@ -242,7 +232,7 @@ footer {
 }
 
 #lead-content h1 {
-    color: rgba(255, 255, 255, 0.834);
+    color: black;
     font-weight: 900;
     font-size: 5em;
     text-transform: uppercase;
@@ -257,7 +247,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #fff;
+    color: black;
 }
 #lead-down span {
     cursor: pointer;
@@ -266,7 +256,7 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 3px solid #ffffff;
+    border: 3px solid black;
     text-align: center;
 }
 #lead-down i {
