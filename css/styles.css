@@ -67,6 +67,7 @@ header ul {
 }
 header li {
     display: inline-block;
+    
 }
 header a {
     display: block;
@@ -80,7 +81,6 @@ header a:hover {
     border-radius: 4px;
 }
 header a:focus {
-    color: #22343f;
     text-decoration: none;
 }
 header.active {
@@ -213,7 +213,6 @@ footer {
 #lead {
     position: relative;
     background-color: #f2f2f5;
-
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
@@ -292,11 +291,9 @@ footer {
     padding: 75px 15px;
     border-bottom: 1px solid #dcd9d9;
 }
-#about h2 {
-    color: #374054;
-}
+
 #about p {
-    color: #74808a;
+    color: rgba(0, 0, 0, 0.554);
     margin: 0;
 }
 #experience {
@@ -304,9 +301,7 @@ footer {
     text-align: center;
     border-bottom: 1px solid #dcd9d9;
 }
-#experience h2 {
-    color: #1b2029;
-}
+
 #experience-timeline {
     margin: 30px auto 0 auto;
     position: relative;
@@ -396,10 +391,10 @@ footer {
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
 }
-#education h2 {
+/* #education h2 {
     color: #374054;
     margin-bottom: 50px;
-}
+} */
 .education-block {
     max-width: 700px;
     margin: 0 auto 30px auto;
@@ -437,10 +432,10 @@ footer {
     border-bottom: 1px solid #dcd9d9;
     text-align: center;
 }
-#projects h2 {
+/* #projects h2 {
     color: #374054;
     margin-bottom: 50px;
-}
+} */
 .project {
     text-align: left;
     position: relative;
@@ -523,10 +518,10 @@ footer {
     padding: 50px 15px;
     text-align: center;
 }
-#skills h2 {
+/* #skills h2 {
     color: #374054;
     margin-bottom: 50px;
-}
+} */
 #skills ul {
     display: block;
     margin: 0 auto;
@@ -565,32 +560,32 @@ footer {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #31404a;
-    color: #fff;
+    background: white;
+    color: black;
     transition: 0.5s ease all;
 }
 #contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
-    color: #fff;
+    color: black;
 }
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
-    color: #fff;
+    /* color: red; */
     opacity: 1;
 }
 #contact-form input::-moz-placeholder,
 #contact-form textarea::-moz-placeholder {
-    color: #fff;
+    color: red;
     opacity: 1;
 }
 #contact-form input:-ms-input-placeholder,
 #contact-form textarea:-ms-input-placeholder {
-    color: #fff;
+    color: red;
 }
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    background: #476477;
+    background: white;
 }
 #contact-form textarea {
     height: 150px;
@@ -599,19 +594,20 @@ footer {
 #contact-form button {
     display: block;
     width: 100%;
-    background: rgb(206, 204, 204);
+    background: white;
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
     color: #39444b;
     font-weight: 700;
-    box-shadow: 0 1px 3px rgba(73, 13, 13, 0.12),
-        0 1px 2px rgba(163, 35, 35, 0.24);
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.12),
+        0 1px 2px rgba(255, 255, 255, 0.24);
     transition: 0.5s ease all;
+    
 }
 #contact-form button:hover {
-    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.19),
-        0 6px 6px rgba(127, 21, 21, 0.23);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19),
+        0 6px 6px rgba(255, 255, 255, 0.23);
 }
 .optional-section {
     padding: 50px 15px;
@@ -679,8 +675,8 @@ footer {
     #lead-content {
         position: relative;
         transform: none;
-        left: auto;
-        top: auto;
+        transform: translate(-50%, 0%);
+        text-align: center;
     }
     #lead-content h1 {
         font-size: 3em;
