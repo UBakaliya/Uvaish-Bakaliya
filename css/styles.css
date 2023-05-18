@@ -225,7 +225,7 @@ footer {
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    background-image: url("/images/Profile_Image.jpeg");
+    background-image: url("images/Profile_Image.jpeg");
     background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position: right;
